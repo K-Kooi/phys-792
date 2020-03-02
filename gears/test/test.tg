@@ -1,0 +1,94 @@
+:volu hall BOX 10*m 10*m 10*m G4_AIR
+
+:rotm r000 0 0 0
+
+
+:volu 	box 		BOX 		2*cm 2*cm 2*cm 			G4_BRASS
+:place	box 		1 		hall r000 0.0*m 0.0*m 0.0*m
+:color	box 		0.9 0.9 0
+
+:volu 	tube 		TUBE 		1*cm 2*cm 2*cm 			G4_BRASS
+:color	tube 		0.9 0.9 0
+:place	tube 		2 		hall r000 1.0*m 1.0*m 1.0*m
+
+:volu 	tubs 		TUBS 		1*cm 2*cm 2*cm 0 90 		G4_BRASS
+:color	tubs 		0.9 0.9 0
+:place	tubs 		3 		hall r000 1.1*m 1.0*m 1.0*m
+
+:volu 	cone 		CONE 		0*cm 1*cm 0*cm 3*cm 3*cm	G4_BRASS
+:color	cone 		0.9 0.9 0
+:place	cone 		4 		hall r000 2.0*m 1.0*m 1.0*m
+
+:volu 	cons 		CONS 		0*cm 1*cm 0*cm 3*cm 3*cm 0 45	G4_BRASS
+:color	cons 		0.9 0.9 0
+:place	cons 		5 		hall r000 2.1*m 1.0*m 1.0*m
+
+:volu 	trd 		TRD 		1*cm 1*cm 2*cm 2*cm 3*cm	G4_BRASS
+:color	trd 		0.9 0.9 0
+:place	trd 		6 		hall r000 2.0*m 2.0*m 1.0*m
+
+:volu 	trap 		TRAP 		1*cm 1*cm 1*cm 1*cm		G4_BRASS
+:color	trap 		0.9 0.9 0
+:place	trap 		7 		hall r000 -2.0*m 1.9*m 1.0*m
+
+:volu 	para 		PARA 		1*cm 1*cm 2*cm 30 30 30		G4_BRASS
+:color	para 		0.9 0.9 0
+:place	para 		8 		hall r000 2.0*m 0.0*m 1.0*m
+
+:volu 	sphere 		SPHERE 		1*cm 3*cm 0 180 0 180		G4_BRASS
+:color	sphere 		0.9 0.9 0
+:place	sphere 		9 		hall r000 -2.0*m -2.0*m -2.0*m
+
+:volu 	orb 		ORB 		5*cm		G4_BRASS
+:color	orb 		0.9 0.9 0
+:place	orb 		10 		hall r000 -2.2*m -2.0*m -2.0*m
+
+:volu 	polycone 	POLYCONE 	0 360 6 3 -2 3.5 -2 3 1 3 1 3 2 3 2		G4_BRASS
+:color	polycone	0.9 0.9 0
+:place	polycone	11 		hall r000 -2.0*m -2.0*m -1.0*m
+
+:volu	twistedtubs 	TWISTEDTUBS 	1 1*cm 2*cm 2*cm 30 		G4_BRASS
+:color	twistedtubs 	0.9 0.9 0
+:place	twistedtubs 	22 		hall r000 2*m 2*m 2*m
+
+
+
+:vis	hall 	OFF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
